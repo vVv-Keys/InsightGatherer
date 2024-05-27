@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+
+{% block title %}Results for "{{ query }}" - InsightGatherer{% endblock %}
+
+{% block content %}
+    <h2>Results for "{{ query }}"</h2>
+
+    <h3>Government Information</h3>
+    <ul>
+        {% for item in gov_info %}
+        <li><a href="{{ item.link }}" target="_blank">{{ item.title }}</a> - {{ item.summary }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Social Media</h3>
+    <ul>
+        {% for tweet in social_media %}
+        <li>{{ tweet.user }}: {{ tweet.text }} ({{ tweet.created_at }})</li>
+        {% endfor %}
+    </ul>
+
+    <h3>News</h3>
+    <ul>
+        {% for article in news %}
+        <li><a href="{{ article.url }}" target="_blank">{{ article.title }}</a> - {{ article.description }}</li>
+        {% endfor %}
+    </ul>
+
+    <h3>Geolocation</h3>
+    <p>{{ geolocation.address }} ({{ geolocation.latitude }}, {{ geolocation.longitude }})</p>
+
+    <h3>Domain Information</h3>
+    <p>{{ domain_info.domain_info }}</p>
+    <p>IP Addresses: {{ domain_info.ip_addresses }}</p>
+
+    <h3>Visualization</h3>
+    <img src="{{ visualization }}" alt="Visualization">
+{% endblock %}
