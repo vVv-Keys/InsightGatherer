@@ -20,7 +20,7 @@
 ## InsightGatherer is an OSINT (Open Source Intelligence) tool that aggregates information from various public sources, including government databases, social media, news articles, geolocation data, domain and IP information, and visualizations.
 
 ### Features
-```
+
 - **Government Information**: Fetches public government records and documents.
 - **Social Media**: Retrieves recent tweets related to a search query.
 - **News**: Gathers news articles matching the search query.
@@ -40,10 +40,12 @@
 
 1. **Clone the repository:**
 
-   ```bash
+```
+     bash
    git clone https://github.com/yourusername/InsightGatherer.git
    cd InsightGatherer
 ```
+
 # Create and activate a virtual environment:
 
 ``` python -m venv venv
