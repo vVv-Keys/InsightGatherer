@@ -1,0 +1,9 @@
+Flask
+requests
+beautifulsoup4
+tweepy
+geopy
+whois
+dnspython
+matplotlib
+gunicorn
