@@ -12,6 +12,8 @@
 ░  ░      ░  ░░ ░           ░  
               ░ ░ 
 ```
+(am all for constructive criticism - if you are a skilled/proficient prgrammer or engineer of any sorts and you think my tool sucks let me know why and if it is applicable will burn it with fire and try again until I eventually come back with the GREATEST OSINT TOOL TO EVER EXIST! If you have any problems, or need any help feel free to Discuss or make a pull request!)
+
 
 # InsightGatherer
 
@@ -156,4 +158,5 @@ Contributions are welcome! Please fork the repository and submit a pull request 
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
 
