@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - InsightGatherer{% endblock %}
+
+{% block content %}
+    <h2>Search Open Source Intelligence</h2>
+    <form action="/search" method="POST">
+        <input type="text" name="query" placeholder="Enter search query" required>
+        <button type="submit">Search</button>
+    </form>
+{% endblock %}
