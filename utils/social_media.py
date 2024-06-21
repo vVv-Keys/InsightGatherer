@@ -1,7 +1,7 @@
 import tweepy
 
 def fetch_social_media(query):
-    api_key = 'your_twitter_api_key'
+    api_key = 'your_twitter_api_key'  # Note this  is  HARDCODED meaning  not hidden  so DO NOT USE IN A NON PROTECTED ENVIRONMENT OR PUBLIC ENVIRONMENT
     api_secret_key = 'your_twitter_api_secret'
     access_token = 'your_access_token'
     access_token_secret = 'your_access_token_secret'
