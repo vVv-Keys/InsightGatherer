@@ -28,4 +28,4 @@ def search():
                            visualization=visualization)
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=False) # Place to True to ENABLE DEBUG MODE  (WARNING SECURITY RISK FOR UNTRUSTED USERS)
